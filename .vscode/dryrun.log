@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/fahdikrie/Data/projects/sirka-recruitments/sirka-be-test'
+go run cmd/main.go
+make: Leaving directory `/Users/fahdikrie/Data/projects/sirka-recruitments/sirka-be-test'
+ 

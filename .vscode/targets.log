@@ -1,0 +1,311 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Tue Aug 23 14:29:20 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LC_CTYPE = UTF-8
+# environment
+NVM_INC = /Users/fahdikrie/.nvm/versions/node/v16.15.1/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GRADLE_HOME = /Users/fahdikrie/.sdkman/candidates/gradle/current
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/fahdikrie/Data/projects/sirka-recruitments/sirka-be-test
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+P9K_SSH = 0
+# environment
+VSCODE_CWD = /Users/fahdikrie/Data/projects/sirka-recruitments/sirka-be-test
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = /Users/fahdikrie/Library/pnpm:/Users/fahdikrie/.bun/bin:/Users/fahdikrie/.sdkman/candidates/java/current/bin:/Users/fahdikrie/.sdkman/candidates/gradle/current/bin:/Users/fahdikrie/.yarn/bin:/Users/fahdikrie/.config/yarn/global/node_modules/.bin:/usr/local/opt/openssl@1.1/bin:/Users/fahdikrie/.asdf/shims:/Users/fahdikrie/.asdf/bin:/Users/fahdikrie/.cabal/bin:/Users/fahdikrie/.ghcup/bin:/Users/fahdikrie/.nvm/versions/node/v16.15.1/bin:/Users/fahdikrie/opt/anaconda3/condabin:/Users/fahdikrie/.pyenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/fahdikrie/Development/flutter/bin:/Users/fahdikrie/Library/Android/sdk/tools:/Users/fahdikrie/Library/Android/sdk/platform-tools
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SDKMAN_DIR = /Users/fahdikrie/.sdkman
+# environment
+PNPM_HOME = /Users/fahdikrie/Library/pnpm
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+GOPATH = /Users/fahdikrie/go
+# environment
+NVM_BIN = /Users/fahdikrie/.nvm/versions/node/v16.15.1/bin
+# environment
+LaunchInstanceID = 9235690C-AE75-40E3-88F0-27CEC75B94EE
+# environment
+SDKMAN_PLATFORM = darwinarm64
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = /Users/fahdikrie/Library/Android/sdk
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.VXptgEEdjd/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/fahdikrie/opt/anaconda3/bin/conda
+# environment
+VISUAL = nano
+# environment
+PWD = /Users/fahdikrie/Data/projects/sirka-recruitments/sirka-be-test
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Users/fahdikrie/.nvm/versions/node/v16.15.1/share/man:/opt/homebrew/share/man::
+# environment
+GOMODCACHE = /Users/fahdikrie/go/pkg/mod
+# environment
+HOME = /Users/fahdikrie
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/fahdikrie/Library/Application Support/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = fahdikrie
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = -q
+# environment
+ZSH = /Users/fahdikrie/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# environment
+SDKMAN_VERSION = 5.15.0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# environment
+JAVA_HOME = /Users/fahdikrie/.sdkman/candidates/java/current
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = fahdikrie
+# makefile
+.DEFAULT_GOAL := server
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t0p0:CFAC9810-320C-4083-A2AA-385743D943BA
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/4y/f7n6cknn4dd3pvy303271wjh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US:en
+# environment
+VSCODE_IPC_HOOK = /Users/fahdikrie/Library/Application Support/Code/1.70.2-main.sock
+# environment
+MallocNanoZone = 0
+# environment
+BUN_INSTALL = /Users/fahdikrie/.bun
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.16
+# environment
+NVM_DIR = /Users/fahdikrie/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.77416052.77416060.26DB6EF8-D443-4634-8F49-10372036BF6E
+# environment
+LC_TERMINAL_VERSION = 3.4.16
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t0p0:CFAC9810-320C-4083-A2AA-385743D943BA
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 7;0
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+SDKMAN_CANDIDATES_DIR = /Users/fahdikrie/.sdkman/candidates
+# environment
+EDITOR = nano
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /Users/fahdikrie/opt/anaconda3/bin/python
+# environment
+SECURITYSESSIONID = 186b2
+# environment
+P9K_TTY = old
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+ASDF_DIR = /Users/fahdikrie/.asdf
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+_P9K_TTY = /dev/ttys000
+# environment
+VSCODE_PID = 22406
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=6/135=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777232, inode 79585286): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-23 14:29:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+server:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	go run cmd/main.go
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Aug 23 14:29:20 2022
+
+ 
