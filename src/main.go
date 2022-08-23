@@ -25,7 +25,7 @@ func main() {
     isOnDocker := os.Getenv("DOCKER_DATABASE_URL") != ""
 
     if isOnHeroku {
-        port = ":" + os.Getenv("DOCKER_PORT")
+        port = ":" + os.Getenv("PORT")
         dbUrl = os.Getenv("DATABASE_URL")
     } else if isOnDocker {
         port = os.Getenv("DOCKER_PORT")
