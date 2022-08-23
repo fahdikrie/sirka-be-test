@@ -7,8 +7,10 @@ services:
     restart: always
     ports:
       - "5432:5432"
+    # volumes:
+    #   - ./scripts/seed.sql:/docker-entrypoint-initdb.d/seed.sql
     volumes:
-      - ./scripts/seed.sql:/docker-entrypoint-initdb.d/seed.sql
+      - postgres_vol:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=database
       - POSTGRES_USER=postgres
@@ -25,3 +27,6 @@ services:
     environment:
       - DOCKER_PORT=:8080
       - DOCKER_DATABASE_URL=postgres://postgres:postgres@db:5432/database
+
+volumes:
+  postgres_vol:
