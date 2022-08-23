@@ -8,7 +8,7 @@ https://sirka-psql-test.herokuapp.com/
 
 ## Questions
 1. **What is your Name:**
-   Fahdii Ajmalal Fikrie
+   Fahdii Ajmalal Fikrie (fahdiaf@ristek.cs.ui.ac.id)
 2. **What is the url of the Golang version API on the internet?**
    Go 1.16 is used on this project.
 3. **What is the git repo url of the Golang version?**
@@ -20,7 +20,8 @@ https://sirka-psql-test.herokuapp.com/
    I don't know much about clean architecture beside it is an approach of writing and organizing code by respecting each layer of program.
 6. **Explain what authentication method used on API Call?**
    Method used are `GET` and `POST`. `GET` is generally used for fetching data, meanwhile `POST` is mainly used for creating new data.
-
+7. **What do you think to consider for secure programming?**
+   https, cors, no disclosure of important and sensitive information on data transaction/session/localstorage (answer is based on the assumption of secure programming is a security matter instead of defensive programming).
 
 ## Running the Program
 **Using Makefile**
