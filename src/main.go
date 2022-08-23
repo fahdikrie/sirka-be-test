@@ -9,6 +9,14 @@ import (
 	"github.com/spf13/viper"
 )
 
+func getEnv(key, defaultValue string) string {
+    value := os.Getenv(key)
+    if len(value) == 0 {
+        return defaultValue
+    }
+    return value
+}
+
 func main() {
     var port string
     var dbUrl string
